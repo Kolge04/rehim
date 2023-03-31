@@ -15,7 +15,7 @@ pybase64~=1.2.2
 
 ffmpeg-python
 wikipedia==1.4.0
-yt-dlp==2022.10.04
+git+https://github.com/yt-dlp/yt-dlp@master
 lyricsgenius==3.0.1
 
 aiohttp[speedups]~=3.8.1
