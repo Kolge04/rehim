@@ -26,9 +26,9 @@ message_3 = (
 )
 message_4 = (
     "ℹ️ <b>Info</b>\n\n"
-    "Yue is a bot developed in <b>Python3</b>"
+    "<b>Python3</b> ilə hazırlanmıs botam"
     " and uses <a href='https://github.com/pyrogram/pyrogram'>Pyrogram</a> as a framework with MongoDB as database.\n\n"
-    "🆚 Version<b>:</b> {} | 📣 Channel<b>:</b> @yueblog"
+    "🆚 Version<b>:</b> {} | 📣 Channel<b>:</b> @Teamabasofcom"
 )
 # download module 
 message_5 = "🔍 <b>Yükləni...</b>"
@@ -42,13 +42,13 @@ message_9 = "😕 Üzgünəm canlı vido dəsdəkləmirəm."
 message_10 = "😕 Bu seçim sizə görə deyil , yenidən axtarın."
 message_11 = "❌ Müddət xətası, yalnız icazə verilən saniye 1000saniyə"
 # bans module
-message_12 = "🚷 You've been <b>banned</b>"
-message_13 = "🔓 You've been <b>unbanned</b>"
-message_14 = "🚷 {} [<code>{}</code>] has been <b>banned</b>"
-message_15 = "🔓 {} [<code>{}</code>] has been <b>unbanned</b>"
-message_16 = "🚷 <b>The user is already banned</b>"
-message_17 = "🔓 <b>User not banned</b>"
-message_18 = "⚠️ <b>Invalid syntax</b>\n💭 Use the <b>command specifying the ID</b> or replying to a <b>users message</b>"
+message_12 = "🚷 Siz qadağan <b>edildiz</b>"
+message_13 = "🔓 Sizin qadağanız <b>qaldırıldı</b>"
+message_14 = "🚷 {} [<code>{}</code>] qadağan <b>edilib</b>"
+message_15 = "🔓 {} [<code>{}</code>] qadağa leğv <b>edilib</b>"
+message_16 = "🚷 <b>İstdifadəçi qadaöan edilib</b>"
+message_17 = "🔓 <b>İstdifadəçi qadağan edilməyib</b>"
+message_18 = "⚠️ <b>Yalnış sintakt</b>\n💭 Bu <b>ID təyin edmək olmadı</b> istdifadəçi mesajına yanıt verərək <b>cavab verə bilərsiz</b>"
 message_19 = "\n• <b>Due to:</b> {}"
 # bot broadcast 
 message_20 = "<b>Usage:</b> <code>/broadcast [your message]</code> or you can reply to a message."
