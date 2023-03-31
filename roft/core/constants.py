@@ -1,25 +1,25 @@
 message_1 = (
-    "👋🏻 Hi, {m} and <b>Welcome.</b>\n\n"
-    "💭 @{bn} allows you to download"
-    " media from TikTok, YouTube, Pinterest, Spotify and Instagram. "
-    "To find out more about how to use me press the '📮 <b>Help</b>' button."
+    "👋🏻 Salam, {m}  <b>Xoş gəlmisiz.</b>\n\n"
+    "💭 @{bn} sizə endirməyə imkan verir"
+    "  TikTok, YouTube, Pinterest, Spotify dən media. "
+    "Məni necə istdifadə etməyi bilmirsiz '📮 <b>Help</b>' buttona toxunun."
 )
-message_2 = "💭 Hello {}!"
+message_2 = "💭 Salam {}!"
 message_3 = (
     "📮 <b>Help</b>\n\n"
-    "<b>YouTube command:</b>\n"
-    "Just type /song [song title]"
-    " you can get audio or video from YouTube.\n"
-    "You can also get lyrics from genius.com via me, use the command /lyrics [title]\n\n"
-    "<b>TikTok command:</b>\n"
-    "How to download video from TikTok?\n"
-    "  <b>1.</b> Go to the TikTok app\n"
-    "  <b>2.</b> Choose a video that interests you\n"
-    "  <b>3.</b> Click on the ↪️ button or the three dots on the top right corner\n"
-    "  <b>4.</b> Click the 'Copy' button\n"
-    "  <b>5.</b> Send a link to the bot after using the /tiktok command, and in a couple of seconds you will receive a video without a watermark.\n\n"
-    "<b>Pinterest command:</b>\n"
-    "Pinterest has 3 types of media such as: Image, GIF, video.\n"
+    "<b>YouTube Əmr:</b>\n"
+    "Youtubeden səs və video endirmək üçün"
+    " /song [musiqi adı].\n"
+    "Mənim vaistem ile genius.com musiqi sözlərin ala bilersiz əmr /lyrics [mesaj]\n\n"
+    "<b>TikTok əmr:</b>\n"
+    "Tiktok dan video neçə yüklənir?\n"
+    "  <b>1.</b> TikTok uygulamasına gedin\n"
+    "  <b>2.</b> İstdədiyiniz hər hansisa video seçin\n"
+    "  <b>3.</b> Paylaş buttonua toxun və\n"
+    "  <b>4.</b> Videonun linkin alın\n"
+    "  <b>5.</b> /tiktok video linkin qoyun və göndərin və 1 neçə saniyə gözləyin sizə logosuz göndərəcəm .\n\n"
+    "<b>Pinterest əmr:</b>\n"
+    "Pinterest 3 cür media dəsdəkləyir: Şəkil, GIF, video.\n"
     "You just copy the link from pinterest to me by using the /pints [pint link] command.\n\n"
     "<b>Wikipedia command:</b>\n"
     "Just type /wiki [word] and I will look it up on Wikipedia."
@@ -31,16 +31,16 @@ message_4 = (
     "🆚 Version<b>:</b> {} | 📣 Channel<b>:</b> @yueblog"
 )
 # download module 
-message_5 = "🔍 <b>Loading...</b>"
-message_6 = "To download a song do /song [Song name]"
+message_5 = "🔍 <b>Yükləni...</b>"
+message_6 = "Musiqi endirmek ucun /song [Musiqi adi]"
 message_7 = (
     "{}\n\n"
     "<b>1.</b> <i>{}</i>\n<b>2.</b> <i>{}</i>\n<b>3.</b> <i>{}</i>\n<b>4.</b> <i>{}</i>\n<b>5.</b> <i>{}</i>\n"
     "<b>6.</b> <i>{}</i>\n<b>7.</b> <i>{}</i>\n<b>8.</b> <i>{}</i>\n<b>9.</b> <i>{}</i>\n<b>10.</b> <i>{}</i>"
 )
-message_9 = "😕 Sorry, live videos are not supported."
-message_10 = "😕 Sorry this option is not for you, please search for yourself."
-message_11 = "❌ Duration error, only allowed duration 1000seconds"
+message_9 = "😕 Üzgünəm canlı vido dəsdəkləmirəm."
+message_10 = "😕 Bu seçim sizə görə deyil , yenidən axtarın."
+message_11 = "❌ Müddət xətası, yalnız icazə verilən saniye 1000saniyə"
 # bans module
 message_12 = "🚷 You've been <b>banned</b>"
 message_13 = "🔓 You've been <b>unbanned</b>"
@@ -55,18 +55,18 @@ message_20 = "<b>Usage:</b> <code>/broadcast [your message]</code> or you can re
 message_21 = "⌛ <b>Progress the broadcast message...</b> Will take <code>{}</code> seconds."
 message_22 = "✅ Successfully broadcast message in {} chats"
 # pinterest text
-message_23 = "To get a pinterest media do /pints [Pinterest URL]"
-message_24 = "⌛ <b>Sending...</b>"
+message_23 = "Pinterest media endirmək üçün /pints [Pinterest media url]"
+message_24 = "⌛ <b>Göndərirəm...</b>"
 message_25 = (
-   "<b>Pinterest Downloader</b>\n"
-   "<a href='https://t.me/yueblog'>Channel</a> | <a href='https://t.me/shin_yue'>Developer</a>"
+   "<b>Pinterest Yükləmə</b>\n"
+   "<a href='https://t.me/Teamabasofcom'>Channel</a> | <a href='https://t.me/teamabasov'>Sahib</a>"
 )
-message_26 = "🔍 <b>No results found, please try again.</b>"
+message_26 = "🔍 <b>Nəticə tapılmadı yenidən yoxlayın.</b>"
 # TikTok Module
-message_27 = "To download a tiktok video do /tiktok [TikTok URL]"
-message_28 = "• Via @Yuedlbot"
-message_29 = "🔍 <b>No results found, please try again.</b>"
-message_30 = "Sorry, I was unable to get information about this file.\nTry again later or send another link."
+message_27 = "Tiktok videosu yükləmək üçün /tiktok [TikTok URL]"
+message_28 = "• Yüklədi @OldSaveAllBot.\nDigər bot @OldMultiBot"
+message_29 = "🔍 <b>Nəticə tapılmadı yenidən yoxlayın.</b>"
+message_30 = "Bağışlayin bu fayil haqqında məlumat ala bilmədim.\nYenidən yoxlayin və ya başqa kecid linki istdifadə edin."
 
 # button
 from pyrogram import types
@@ -152,7 +152,7 @@ keyboard = (
         [
             [
                 types.InlineKeyboardButton(text='📮 Help', callback_data='self_help'),
-                types.InlineKeyboardButton(text='📣 Channel', url='https://t.me/yueblog')
+                types.InlineKeyboardButton(text='📣 Channel', url='https://t.me/TeamabasofCom')
             ]
         ]
     )
