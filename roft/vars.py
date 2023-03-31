@@ -16,7 +16,7 @@ class RoftConfiguration:
     ApiID = os.environ.get('API_ID', 15954332)
     ApiHASH = os.environ.get('API_HASH', "85adea6f1eaf068b707703b4846a9ced") 
 
-    TelegramBot = os.environ.get('TELEGRAM', "5869735539:AAFbsTd162Ec5KAxokZC87tU4_4SkEPGDlw")
+    TelegramBot = os.environ.get('TELEGRAM', "6046365592:AAGHGCYeqWQJjuMDKbSjWXm9XgI9fnzvMgQ")
     SpecialUsers = int(os.environ.get('CREATOR_ID', "5134595693"))
 
     MongoDatabaseURI = os.environ.get('DATABASE_URI', "mongodb+srv://srnpxkb007:srnpxkb007@cluster0.i2tsrxy.mongodb.net/?retryWrites=true&w=majority")
