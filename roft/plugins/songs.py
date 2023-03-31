@@ -233,7 +233,7 @@ async def download_cb(_, callback: types.CallbackQuery):
     thumb = io.BytesIO((await http.get(yt['thumbnail'])).content)
     thumb_name = 'thumbnail.png'
  
-    await callback.message.edit('⌛ <b>Sending...</b>') 
+    await callback.message.edit('⌛ <b>Göndərirəm...</b>') 
     await self.send_chat_action(
         chat_id=callback.message.chat.id,
         action=enums.ChatAction.UPLOAD_AUDIO
