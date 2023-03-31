@@ -45,9 +45,9 @@ async def pinterest(_, m: types.Message):
 async def tiktok(_, m: types.Message):
     if len(m.command) < 2:
         text = (
-            'You must send the correct url to get video from TikTok.\n'
-            'Example:\n'
-            '1. https://vm.tiktok.com/nq431N/\n'
+            'Tiktokdan video yükləmək üçün url göndərməlisiz.\n'
+            'Məsələn:\n'
+            '1. https://www.tiktok.com/@avani/video/6810857914052398342\n'
             '2. https://www.tiktok.com/@avani/video/6810857914052398342\n'
         )
         return await m.reply_text(text, disable_web_page_preview=True)
@@ -70,9 +70,9 @@ async def tiktok(_, m: types.Message):
         await message_wait.delete()  
     else:
         text = (
-            'You sent the wrong link to the post, please send the correct link.\n'
-            'Example:\n'
-            '1. https://vm.tiktok.com/nq431N/\n'
+            'Tiktokdan video yükləmək üçün url göndərməlisiz.\n'
+            'Məsələn:\n'
+            '1. https://www.tiktok.com/@avani/video/6810857914052398342\n'
             '2. https://www.tiktok.com/@avani/video/6810857914052398342\n'
         )
         return await self.send_message(m.chat.id, text, disable_web_page_preview=True)
