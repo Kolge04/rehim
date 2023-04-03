@@ -13,14 +13,14 @@ class RoftConfiguration:
 
     __roft_version__ = '1.5.8'
 
-    ApiID = os.environ.get('API_ID', 15954332)
-    ApiHASH = os.environ.get('API_HASH', "85adea6f1eaf068b707703b4846a9ced") 
+    ApiID = os.environ.get('API_ID', 123456)
+    ApiHASH = os.environ.get('API_HASH', "123567") 
 
-    TelegramBot = os.environ.get('TELEGRAM', "6046365592:AAEA70XnEdSYXv_g1n1IFlKCCrUtMw0C8kQ")
+    TelegramBot = os.environ.get('TELEGRAM', "Token yaz")
     SpecialUsers = int(os.environ.get('CREATOR_ID', "5134595693"))
 
-    MongoDatabaseURI = os.environ.get('DATABASE_URI', "mongodb+srv://srnpxkb007:srnpxkb007@cluster0.i2tsrxy.mongodb.net/?retryWrites=true&w=majority")
-    LogGroupChatID = int(os.environ.get('LOG_CHAT_ID', "-1001737573985")) 
+    MongoDatabaseURI = os.environ.get('DATABASE_URI', "Mongo url yaz")
+    LogGroupChatID = int(os.environ.get('LOG_CHAT_ID', "Log group idin yaz")) 
 
     MusicDurationLimit = int(os.getenv("MusicDurationLimit", "3600"))
     CommandPrefixesBOT = list(os.getenv("CommandPrefixesBOT", '. / !').split())
