@@ -13,20 +13,20 @@ class RoftConfiguration:
 
     __roft_version__ = '1.5.8'
 
-    ApiID = os.environ.get('API_ID', dsssd)
-    ApiHASH = os.environ.get('API_HASH', "sdd") 
+    ApiID = os.environ.get('API_ID', 129393933)
+    ApiHASH = os.environ.get('API_HASH', "wiwueu282usnwj") 
 
-    TelegramBot = os.environ.get('TELEGRAM', "604636559ddddd")
-    SpecialUsers = int(os.environ.get('CREATOR_ID', "sddd"))
+    TelegramBot = os.environ.get('TELEGRAM', "6062022905:AAF3kB_R5vLKt6HyZfkHx8NcLaMtG9Hji8I")
+    SpecialUsers = int(os.environ.get('CREATOR_ID', "5663585448"))
 
-    MongoDatabaseURI = os.environ.get('DATABASE_URI', "dd")
-    LogGroupChatID = int(os.environ.get('LOG_CHAT_ID', "-dds")) 
+    MongoDatabaseURI = os.environ.get('DATABASE_URI', "mongodb+srv://music:music@cluster0.sh6h4.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+    LogGroupChatID = int(os.environ.get('LOG_CHAT_ID', "-1001814896088")) 
 
     MusicDurationLimit = int(os.getenv("MusicDurationLimit", "3600"))
     CommandPrefixesBOT = list(os.getenv("CommandPrefixesBOT", '. / !').split())
 
     GeniusLyricsAPI = os.getenv('GeniusLyricsAPI', '1QNnajK5oSh2Ut_bJVXbKzwFV_BqyZxUssSpWdcjpVHr5qRcql0BMx3pMSVWSFoj')
-    UserMustJoinChannel = os.getenv('UserMustJoinChannel', 'Teamabasofcom')
+    UserMustJoinChannel = os.getenv('UserMustJoinChannel', 'sesizKOLGE')
 
 
 vars = RoftConfiguration() 
